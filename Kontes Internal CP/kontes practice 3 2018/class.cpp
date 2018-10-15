@@ -60,14 +60,14 @@ int main()
 { 
     bitWiseSieve(100000002);
     int n,x;
-    cin>>n;
+    scanf("%d", &n);
     for (int i = 0; i < n; ++i)
     {
-        cin>>x;
+        scanf("%d", &x);
         if (x==2 || (!ifnotPrime(prime, x) && x%2))
         {
 
-            cout<<0<<endl;
+            printf("0\n");
         } else {
             int temp = x;
             if (temp%2==0)
@@ -83,7 +83,7 @@ int main()
                 }
                 
             }
-            cout<<(x-temp)<<endl;
+            printf("%d\n", (x-temp));
         }
         
     }
