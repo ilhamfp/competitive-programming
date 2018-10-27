@@ -1,3 +1,9 @@
+# ===================================
+# (c) MidAndFeed aka ASilentVoice
+# ===================================
+# import math 
+# import collections
+# import string
 t = int(input())
 for i in range(t):
 	s, e = [int(x) for x in input().split(" ")]
